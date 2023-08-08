@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vahicle", "WebApplication1\Vahicle.csproj", "{00CAE94A-40A5-4F63-8694-17228914B5C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer", "WebApplication2\Customer.csproj", "{189CD0AB-73F2-4D8A-AE59-16EEABCD3E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication3", "WebApplication3\WebApplication3.csproj", "{204F9CD7-1BB3-456F-891F-5871A02BA1F1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00CAE94A-40A5-4F63-8694-17228914B5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CAE94A-40A5-4F63-8694-17228914B5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CAE94A-40A5-4F63-8694-17228914B5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CAE94A-40A5-4F63-8694-17228914B5C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189CD0AB-73F2-4D8A-AE59-16EEABCD3E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189CD0AB-73F2-4D8A-AE59-16EEABCD3E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189CD0AB-73F2-4D8A-AE59-16EEABCD3E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189CD0AB-73F2-4D8A-AE59-16EEABCD3E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204F9CD7-1BB3-456F-891F-5871A02BA1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204F9CD7-1BB3-456F-891F-5871A02BA1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204F9CD7-1BB3-456F-891F-5871A02BA1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204F9CD7-1BB3-456F-891F-5871A02BA1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
